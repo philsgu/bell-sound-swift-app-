@@ -74,7 +74,7 @@ class WorkSpace: CanvasController {
         c.lineWidth = 60.0
      
       
-        
+        //action gesture
         let press = c.addLongPressGestureRecognizer { locations, center, state in
             switch state {
             case .began, .changed:
